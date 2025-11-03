@@ -1,2 +1,5 @@
-img = load("input.png") |> crop(50, 50, 3000, 3000);
-save("cropped.png", img);
+int a= 10;
+img = load("input3.jpg") |> threshold(180,1);
+img2 = load("input2.jpg") |> rotate(-1);
+save("output.jpg",img2);
+print("done running", img,"\n");
